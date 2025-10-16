@@ -1,0 +1,14 @@
+const nomes = ['Gustavo', 'José', 'Gilmar', 'Gabriel', 'João'];
+
+nomes.forEach(nome => {
+    console.log(nome);
+});
+
+const numeros = [1, 2, 3, 4, 5];
+
+const dobrados = numeros.map(numero => numero * 2);
+console.log(dobrados);
+
+const impares = numeros.filter(numero => numero % 2 !== 0);
+console.log(impares);
+
